@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/jpg" href="photos/book.jpg">
+    <title>Your Book</title>
+    <!-- CDN start -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- CDN end -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>1</h1>
+   <div class="container-fluid" >
+        <div class="row">
+            <!-- navbar start -->
+                <nav class="navbar navbar-inverse navbar-fixed-top" id="nav">
+                    <div class="container">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#"  id="nav_item" > <i class="fas fa-language"></i>  ဘာသာစကား
+                                <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#"  id="nav_item_1">Zawgyi</a></li>
+                                    <li><a href="#"  id="nav_item_1">Unicode</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="index.html"  id="nav_item"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#"  id="nav_item" > <i class="fas fa-book"></i> အမျိုးအစားများ
+                                <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#"  id="nav_item_1">သုတ</a></li>
+                                    <li><a href="#"  id="nav_item_1">ရသ</a></li>
+                                    <li><a href="#"  id="nav_item_1">နည်းပညာ</a></li>
+                                    <li><a href="#"  id="nav_item_1">ဘာသာရေး</a></li>
+                                    <li><a href="#"  id="nav_item_1">တက္ကသိုလ်ဝန်တန်း</a></li>
+                                    <li><a href="#"  id="nav_item_1">အချစ်လုံးချင်းဝတ္တု</a></li>
+                                    <li><a href="#"  id="nav_item_1">ဥပဒေရေးရာ</a></li>
+                                    <li><a href="#"  id="nav_item_1">စီးပွားရေး</a></li>
+                                    <li><a href="#"  id="nav_item_1">ဘာသာစကား</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="sign decorating/sign_in_decorating.html"  id="nav_item"><span class="glyphicon glyphicon-lock"></span> Sign in</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#"  id="nav_item" > <span class="glyphicon glyphicon-user"></span>account</span>
+                                <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="./login decorating/login_decorating.html"  id="nav_item_1"><i class="fas fa-sign-in-alt"></i>Login</a></li>
+                                    <li><a href="#"  id="nav_item_1"><i class="fas fa-sign-out-alt"></i>Logout</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- navbar end -->
+                <!-- content 1 start -->
+                  <!-- for lg and md -->
+                    <div class="container visible-lg visible-md">
+                            <div class="container visible-lg visible-md">
+                                <div class=" col-md-4 ">
+                                    <img style="width:300px;" src="photos/myanamr book logo.png"">
+                                    <br>
+                                            <a href="#category_menu_for_lg_and_md" data-toggle="collapse" id="category"><span id="category_data">  <i class="fas fa-bars"></i>
+                                                <i class="fas fa-book-reader"></i> စာရေးဆရာ </span> </a>
+                                                <br> <br>
+                                            <ul class="collapse" id="category_menu_for_lg_and_md" style="opacity: unset;">
+                                                <li><div   id="nav_item_2"><a class="nev_item_3" href="တာတေ.html">တာတေ </a><i class="fas fa-caret-right" id="category_cart_right" ></i></div></li>
+                                                <hr>
+                                                <li><div   id="nav_item_2"><a class="nev_item_3" href="ဗန်းမော်သိန်းဖေ.html">ဗန်းမော်သိန်းဖေ</a><i class="fas fa-caret-right" id="category_cart_right" ></i></div></li>
+                                                <hr>
+                                                <li><div   id="nav_item_2"><a class="nev_item_3" href="#">ဖေမြင့်</a><i class="fas fa-caret-right" id="category_cart_right"></i></div></li>
+                                                <hr>
+                                                <li><div   id="nav_item_2"></i><a class="nev_item_3" href="#">မင်းသိင်္ခ</a><i class="fas fa-caret-right" id="category_cart_right"></i></div></li>
+                                                <hr>
+                                                <li><div   id="nav_item_2"><a class="nev_item_3" href="#">ပီမိုးနင်း</a><i class="fas fa-caret-right" id="category_cart_right"></i></div></li>
+                                                <hr>
+                                            </ul>
+                                    
+                                </div>
+                            <div class=" col-md-8">
+                                <!-- search start -->
+                                <div class="row">
+                                <form action="" method="">
+                                    <div class="form-group">
+                                        <div class="col-sm-6" >
+                                                <input class="form-control input-lg " id="inputlg" type="text" placeholder="Search">
+                                        </div>
+                                            <a href="#" class="btn btn-success btn-lg col-sm-3" >Search</a>
+                                      </div>
+                                </form>
+                                </div>
+                                <!-- search end -->
+                                <!-- menu start -->
+                                <br><br>
+                                <div class="row">
+                                    <div class="col-md-2">
+                                       
+                                        <p style="color: white;font-size: 11.8px;">
+                                                စာအုပ်မိတ်ဆွေ<br>
+                                                09-951119498</p>
+                                        </div>
+                                    <div class="col-md-2">
+                                        <p  class="menu_data">
+                                           <a  class="menu_data" href="index.html">HOME</a> 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p class="menu_data">
+                                            <a  class="menu_data" href="shop.html">SHOP</a>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p class="menu_data">
+                                            <a  class="menu_data" href="page.html">BOOK</a>
+                                        </p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p class="menu_data">
+                                            <a class="menu_data" href="#">ABOUT</a class="menu_data">
+                                        </p>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <p class="menu_data">
+                                            <a class="menu_data" href="contact.html">CONTACT </a class="menu_data">
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- menu end -->
+                                <!-- slide start -->
+                                <div class="row">
+                                    <div class="col-md-12">   
+                                    <div class="container-fluid">
+                                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                        <!-- Indicators -->
+                                        <ol class="carousel-indicators">
+                                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                                        </ol>
+
+                                        <!-- Wrapper for slides -->
+                                        <div class="carousel-inner">
+
+                                        <div class="item active">
+                                            <img src="photos/knowledge.jpg" alt="Los Angeles" style="width:100%;height: 400px;">
+                                            <div class="carousel-caption">
+                                                <h1 style="color: rgb(255, 255, 255);"><b>knowledge</b></h1>  
+                                            <a href="ဗန်းမော်သိန်းဖေ.html" class="btn btn-info">Read now</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="item">  
+                                            <img src="photos/horror.jpg" alt="New York" style="width:100%;height: 400px;">
+                                            <div class="carousel-caption">
+                                                <h1 style="color: rgb(255, 255, 255);"><b>Horror</b></h1>
+                                             <a href="တာတေ.html" class="btn btn-success">Read Now</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="item">
+                                            <img src="photos/comics.jpg" alt="Chicago" style="width:100%;height: 400px;">
+                                            <div class="carousel-caption">
+                                             <h1 style="color: black;"><b>Comics</b></h1>
+                                            <a href="#" class="btn btn-danger">Read now</a>
+                                            </div>
+                                        </div>
+
+                                        </div>
+
+                                        <!-- Left and right controls -->
+                                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left"></span>
+                                        <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right"></span>
+                                        <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                    </div>                                       
+                                    </div>
+                                </div>
+                                <!-- slide end -->
+                                
+                            </div>
+                    </div>
+        </div>
+   </div>
+   <!-- content2 start -->
+   <br><br>
+   <div class="container">
+        <div class="row">
+            <!-- for lg and md start -->
+                <div class="row visible-lg visible-md">  
+                     <!-- blog start --> 
+                     <div class="row">
+                            <div class="col-md-3">
+                                <div class="content2_design">
+                                    <div class="row">
+                                         <div class="col-md-4">
+                                            <i class="fas fa-truck-pickup" id="blog_icon"></i>
+                                         </div>
+                                         <div class="col-md-8">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: 17px; margin: 0; padding: 0;">
+                                                        Delivery
+                                                    </p>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: 17px; margin: 0;padding: 0;">
+                                                        No service
+                                                    </p>
+                                                </div>
+                                            </div>
+                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="content2_design">
+                                    <div class="row">
+                                         <div class="col-md-4">
+                                                <i class="fab fa-amazon-pay" id="blog_icon"></i>
+                                         </div>
+                                         <div class="col-md-8">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: 17px; margin: 0; padding: 0;">
+                                                        Amazon Pay
+                                                    </p>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: 17px; margin: 0;padding: 0;">
+                                                       No services
+                                                    </p>
+                                                </div>
+                                            </div>
+                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                 <div class="content2_design">
+                                    <div class="row">
+                                         <div class="col-md-4">
+                                                <i class="fas fa-money-bill-wave" id="blog_icon"></i>
+                                         </div>
+                                         <div class="col-md-8">
+                                            <div class="row">
+                                                <div class="col-md-12"
+                                                c>
+                                                    <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: 17px; margin: 0; padding: 0;">
+                                                        Offline Pay
+                                                    </p>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: 17px; margin: 0;padding: 0;">
+                                                        No service
+                                                    </p>
+                                                </div>
+                                            </div>
+                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                 <div class="content2_design">
+                                    <div class="row">
+                                         <div class="col-md-4">
+                                                <i class="fas fa-hand-holding-usd" id="blog_icon"></i>
+                                         </div>
+                                         <div class="col-md-8">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: 17px; margin: 0; padding: 0;">
+                                                        currency Change
+                                                    </p>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: 17px; margin: 0;padding: 0;">
+                                                        No service
+                                                    </p>
+                                                </div>
+                                            </div>
+                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- blog end -->
+                    <!-- blog 2 start -->
+                    <br><br>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div style="width: 90%;border: 1px solid gray;">
+                                <img src="photos/cat-gal-large.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="photos/cat-gal-mid.png" class="img-responsive" alt="">
+                                </div>
+                               
+                                <div class="col-md-5">
+                                    <img src="photos/cat-gal-small.png" class="img-responsive" alt="">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <br>
+                                <div class="col-md-5">
+                                    <img src="photos/cat-gal-small-2.jpg" class="img-responsive" alt="">
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="photos/cat-gal-mid-2.png" class="img-responsive" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- blog 2 end -->
+                    <!-- products start -->
+                    <br> <br>
+                    <div class="row" >
+                        <div id="myCarousel1" class="carousel slide" data-ride="carousel" >
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                  <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
+                                  <li data-target="#myCarousel1" data-slide-to="1"></li>
+                                </ol>
+                              
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner" >
+                                  <div class="item active" >
+                                      <div class="col-md-4 col-lg-4">
+                                        <div class="panel panel-default">
+                                            <div class="panel-body">
+                                                <img src="photos/တာတေ/ကွင်းပိုင်နှမမဖဲဝါ.jpg" class="img-responsive img-rounded" style="height: 400px;width: 100%;" alt="">
+                                                <p>
+                                                    <b>စာရေးဆရာ-တာတေ</b>
+                                                    <br>
+                                                    <b>စာအုပ်အမည်-ကွင်းပိုင်နှမမဖဲဝါ</b>
+                                                </p>
+                                                <p class="book_carousel">
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsam quod perspiciatis! Est exercitationem, vero officiis id magnam totam odio? Sed, modi quis. In atque quaerat, repudiandae neque necessitatibus minus!
+                                                </p>
+                                                <button class="btn btn-info btn-block">View</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4">
+                                        <div class="panel panel-default">
+                                            <div class="panel-body">
+                                                <img src="photos/တာတေ/ရွှေဂူရင်မ.jpg" class="img-responsive img-rounded" style="height: 400px;width: 100%;" alt="">
+                                                <p>
+                                                    <b>စာရေးဆရာ-တာတေ</b>
+                                                    <br>
+                                                    <b>စာအုပ်အမည်-ရွှေဂူရင်မ</b>
+                                                </p>
+                                                <p class="book_carousel">
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsam quod perspiciatis! Est exercitationem, vero officiis id magnam totam odio? Sed, modi quis. In atque quaerat, repudiandae neque necessitatibus minus!
+                                                </p>
+                                                <button class="btn btn-info btn-block">View</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                      <div class="col-md-4 col-lg-4">
+                                        <div class="panel panel-default">
+                                            <div class="panel-body">
+                                                <img src="photos/တာတေ/မဖဲဝါ နေတဲ့ ကျွန်း.png" class="img-responsive img-rounded" style="height: 400px;width: 100%;" alt="">
+                                                <p>
+                                                    <b>စာရေးဆရာ-တာတေ</b>
+                                                    <br>
+                                                    <b>စာအုပ်အမည်-မဖဲဝါ နေတဲ့ ကျွန်း</b>
+
+                                                </p>
+                                                <p class="book_carousel">
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsam quod perspiciatis! Est exercitationem, vero officiis id magnam totam odio? Sed, modi quis. In atque quaerat, repudiandae neque necessitatibus minus!
+                                                </p>
+                                                <button class="btn btn-info btn-block">View</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                  </div>
+                                <div class="item ">
+                                    <div class="col-md-4 col-lg-4">
+                                        <div class="panel panel-default">
+                                            <div class="panel-body">
+                                                <img src="photos/ဗန်းမော်သိန်းဖေ/မျှဝေလိုသော အတွေးများ.jpg" class="img-responsive img-rounded" style="height: 400px;width: 100%;" alt="">
+                                                <p>
+                                                    <b>စာရေးဆရာ-ဗန်းမော်သိန်းဖေ</b>
+                                                    <br>
+                                                    <b>စာအုပ်အမည်-ရွှေဂူရင်မ</b>
+                                                </p>
+                                                <p class="book_carousel">
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsam quod perspiciatis! Est exercitationem, vero officiis id magnam totam odio? Sed, modi quis. In atque quaerat, repudiandae neque necessitatibus minus!
+                                                </p>
+                                                <button class="btn btn-info btn-block">View</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4">
+                                        <div class="panel panel-default">
+                                            <div class="panel-body">
+                                                <img src="photos/ဗန်းမော်သိန်းဖေ/ဂျက်မားနှင့်အလီဘာဘာ.jpg" class="img-responsive img-rounded" style="height: 400px;width: 100%;" alt="">
+                                                <p>
+                                                    <b>စာရေးဆရာ-ဗန်းမော်သိန်းဖေ</b>
+                                                    <br>
+                                                    <b>စာအုပ်အမည်-ဂျက်မားနှင့်အလီဘာဘာ</b>
+                                                </p>
+                                                <p class="book_carousel">
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsam quod perspiciatis! Est exercitationem, vero officiis id magnam totam odio? Sed, modi quis. In atque quaerat, repudiandae neque necessitatibus minus!
+                                                </p>
+                                                <button class="btn btn-info btn-block">View</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-lg-4">
+                                        <div class="panel panel-default">
+                                            <div class="panel-body">
+                                                <img src="photos/ဗန်းမော်သိန်းဖေ/သူတို့ဘာကြောင့် ကမ္ဘာကျော်တာလဲ.jpg" class="img-responsive img-rounded" style="height: 400px;width: 100%;" alt="">
+                                                <p>
+                                                    <b>စာရေးဆရာ-ဗန်းမော်သိန်းဖေ</b>
+                                                    <br>
+                                                    <b>စာအုပ်အမည်-သူတို့ဘာကြောင့် ကမ္ဘာကျော်တာလဲ</b>
+                                                </p>
+                                                <p class="book_carousel">
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsam quod perspiciatis! Est exercitationem, vero officiis id magnam totam odio? Sed, modi quis. In atque quaerat, repudiandae neque necessitatibus minus!
+                                                </p>
+                                                <button class="btn btn-info btn-block">View</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                              </div>                              
+                              
+                            </div>
+                              
+                                <!-- Left and right controls -->
+                                <a class="left carousel-control" href="#myCarousel1" data-slide="prev">
+                                 
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel1" data-slide="next">
+                                  
+                                </a>
+                              </div>
+                    </div>
+                    <!-- products end -->
+                    <!-- footer start -->
+                    <br><br><hr>
+                    <div class="row">
+                        <div class="containe">
+                            <footer>
+                                <div class="col-md-6">
+                                    <h1 style="color: white;">about us</h1>
+                                    <p style="color: white;">
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, sint incidunt illo nostrum maxime ad voluptatem optio, ipsam qui magnam exercitationem accusantium! Corporis quis, sed debitis doloribus fugiat qui. Dolores.
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nulla quasi labore numquam, ab unde atque optio est culpa fugit ea harum voluptatibus quisquam doloremque, dolor dolorum sunt accusantium vero?
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium voluptatem perspiciatis sint dolorem voluptatum rerum culpa quia accusantium architecto quis nemo, numquam odit et, eius voluptas rem, cumque ex laudantium.
+                                    </p>
+                                    <hr>
+                                    <p style="color: white;">
+                                        Name - Nrian Khanal(Nay Lin Ko) <br>
+                                        Personal Phone Number - 09-792908852 <br>
+                                        Home Phone Number- 086-20818 <br>
+                                        Email address - nirankhanal77@gmail.com <br>
+                                    </p>
+                                </div>
+                                <div class="col-md-6">
+
+                                </div>
+                                <div class="col-md-3">
+                                    <p style="color: white; font-size: 20px;">www.myanamrbook.com</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.0924400974327!2d96.15438991382632!3d16.772075924675587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1ec7d9f15287f%3A0x8250108ce6b3a4b1!2sPhandeeyar!5e0!3m2!1sen!2smm!4v1577336500167!5m2!1sen!2smm" width="600" height="350px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                                </div>
+                                <div class=" col-md-3">
+                                    <p class="footer_social_media" ><i class="fab fa-facebook-square" style="font-size: 30px;;"></i></p> &nbsp;&nbsp;&nbsp;
+                                   <p class="footer_social_media" ><i class="fab fa-instagram" style="font-size: 30px;;"></i></p> &nbsp;&nbsp;&nbsp;
+                                    <p class="footer_social_media" ><i class="fab fa-facebook-messenger" style="font-size: 30px;"></i></p> &nbsp;&nbsp;&nbsp;
+                                    <p class="footer_social_media" ><i class="fab fa-twitter" style="font-size: 30px;;"></i></p> &nbsp;&nbsp;&nbsp;
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                    <!-- footer end -->
+                    </div>  
+                
+            <!-- for lg and md end -->
+
+            <!-- for sm and xs start -->
+
+            <!-- for sm and xs end -->
+        </div>
+   </div>
+   <!-- content2 end -->
+</body>
+</html>
