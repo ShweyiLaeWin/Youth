@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(login_book.jpg) no-repeat;
+    background-size: cover;
+}
+.login{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(0, 0, 0);
+}
+.login.h1{
+    float: left;
+    font-size: 40px;
+    margin-bottom: 50px;
+    padding: 13px 0;
+    
+}
+.text-box{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px;
+    margin: 8px;
+    border-bottom: 3px solid green;;
+}
+.text-box i{
+    padding-right: 20px;
+}
+.text-box input{
+    border: none;
+    outline: none;
+    background: none ;
+}
+.btn{
+    border: none;
+    outline: none;
+    background: none ;
+    color: green;
+    font-size: 20px;
+}
+.btn:hover{
+   background-color: grey;
+}
+#nav_item{
+    color: white;
+}
+#nav_item:hover{
+    color: rgb(0, 233, 0);
+}
+#nav_item_1{
+    color: black;
+}
+#nav_item_1:hover{
+    color:rgb(0, 233, 0); 
+}
+#my_banner{
+    color: white; 
+}
